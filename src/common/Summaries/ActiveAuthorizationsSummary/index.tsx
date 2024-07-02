@@ -1,0 +1,27 @@
+"use client";
+
+import { useGetAllStatistics } from "@/src/api/hooks/statistics/get-all-statistics";
+import Translation from "@/src/application/lang/client/Translation";
+import { ShieldAlert } from "lucide-react";
+import AlertApiError from "../../AlertApiError";
+
+import SummaryCard from "../SummaryCard";
+
+export default function ActiveAuthorizationsSummary() {
+    const { data, isLoading } = useGetAllStatistics();
+
+    if (!isLoading && (data?.error || data?.data.status !== "success"))
+        return <AlertApiError error={data?.error} />;
+
+    return (
+        <SummaryCard
+            title={<Translation name="common.summaries.authorizations.title" />}
+            count={data?.data?.data.activeAuthorizations ?? 0}
+            caption={
+                <Translation name="common.summaries.authorizations.caption" />
+            }
+            icon={<ShieldAlert width={"1em"} height={"1em"} />}
+            isLoading={isLoading}
+        />
+    );
+}

@@ -1,0 +1,448 @@
+{
+  "appDialogs": {
+    "generalDelete": {
+      "confirmBtn": "Potwierdź",
+      "description": "Tej akcji nie można cofnąć. Spowoduje to trwałe usunięcie Twojego konta i usunięcie Twoich danych z naszych serwerów.",
+      "title": "Czy jesteś absolutnie pewny?"
+    }
+  },
+  "appSidebar": {
+    "menu": {
+      "authorizations": "Uprawnienia",
+      "entries": "Księga gości",
+      "facilities": "Obiekty",
+      "homepage": "Strona główna",
+      "users": "Użytkownicy"
+    },
+    "submenus": {
+      "authorizations": {
+        "create": "Dodaj autoryzację",
+        "list": "Wszystkie autoryzacje",
+        "my": "Moje autoryzacje"
+      },
+      "facilities": {
+        "create": "Dodaj obiekt",
+        "list": "Wszystkie obiekty"
+      },
+      "superId": {
+        "manage": "Zarządzaj tożsamością",
+        "scan": "Skanuj tożsamość"
+      },
+      "users": {
+        "create": "Dodaj użytkownika",
+        "list": "Wszyscy użytkownicy"
+      }
+    }
+  },
+  "appTopbar": {
+    "quickMenu": {
+      "heading": "Ustawienia",
+      "language": "Język",
+      "logout": "Wyloguj się",
+      "profile": "Profil"
+    }
+  },
+  "authorizationsPage": {
+    "myAuthorizations": {
+      "subtitle": "Podgląd wszystkich Twoich autoryzacji.",
+      "title": "Moje autoryzacje"
+    },
+    "subtitle": "Zarządzaj uprawnieniami w systemie SUDO.",
+    "title": "Uprawnienia"
+  },
+  "common": {
+    "alertapierror": {
+      "text": "Wystąpił błąd serwera. Spróbuj ponownie później. {0}"
+    },
+    "combobox": {
+      "entitiesNotFound": "Brak wyników.",
+      "serverError": "Błąd serwera. Spróbuj ponownie później."
+    },
+    "dataTable": {
+      "pageOf": "Strona #{0} z #{1}",
+      "rowsPerPage": "Wyniki na stronę"
+    },
+    "inputsOptional": "opcjonalne",
+    "shortcuts": {
+      "authorizations": {
+        "caption": "Przydziel nową autoryzację",
+        "title": "Stwórz autoryzację"
+      },
+      "entries": {
+        "caption": "Zobacz ostatnie wpisy",
+        "title": "Księga gości"
+      },
+      "facilities": {
+        "caption": "Zobacz wszystkie obiekty",
+        "title": "Obiekty"
+      }
+    },
+    "summaries": {
+      "authorizations": {
+        "caption": "ze wszystkich autoryzacji",
+        "title": "Aktywne autoryzacje"
+      },
+      "entries": {
+        "caption": "+0% w porównaniu do ostatniego dnia",
+        "title": "Dzisiejsze wejścia"
+      },
+      "facilities": {
+        "caption": "ze wszystkich obiektów",
+        "title": "Zajmowane obiekty"
+      }
+    }
+  },
+  "entriesPage": {
+    "heading": "Księga wpisów",
+    "subheading": "Tutaj możesz zobaczyć wszystkie realizacje dostępów dotyczące obiektów."
+  },
+  "facilitiesPage": {
+    "subtitle": "Zarządzaj obiektami w systemie SUDO.",
+    "title": "Obiekty"
+  },
+  "features": {
+    "authorizations": {
+      "newAuthorizationForm": {
+        "inputs": {
+          "selectDates": "Wybierz zakres dat",
+          "selectFacilities": "Zaznacz obiekty",
+          "selectUsers": "Zaznacz użytkowników do autoryzacji"
+        },
+        "nextButton": {
+          "step1": "Przejdź dalej",
+          "step2": "Dodaj autoryzację",
+          "step3": "Zakończ"
+        },
+        "step2Labels": {
+          "dates": "Zakres obowiązywania",
+          "deselectFacilityCaption": "Kliknij aby usunąć obiekt z autoryzacji",
+          "deselectUserCaption": "Kliknij aby usunąć użytkownika z autoryzacji",
+          "selectedFacilities": "Wyznaczone obiekty",
+          "users": "Autoryzowani"
+        },
+        "steps": {
+          "step1": "Krok 1. Uzupełnij dane",
+          "step2": "Krok 2. Weryfikacja",
+          "step3": "Krok 3. Potwierdzenie"
+        },
+        "stepsCards": {
+          "step1": "1. Wypełnij dane",
+          "step2": "2. Weryfikacja",
+          "step3": "3. Potwierdzenie"
+        },
+        "summary": {
+          "errorMsg": "Podczas dodawania autoryzacji wystąpił nieoczekiwany błąd: {0}",
+          "success": "Pomyślnie dodano nową autoryzację #{0}"
+        },
+        "toast": {
+          "error": "Wystąpił błąd podczas dodawania autoryzacji: {0}",
+          "success": "Pomyślnie dodano nową autoryzację #{0}"
+        }
+      }
+    },
+    "entry": {
+      "entriesTable": {
+        "table": {
+          "columns": {
+            "authorizedBy": "Osoba",
+            "entry": "Wejście",
+            "exit": "Wyjście",
+            "occupier": "Autoryzacja",
+            "rooms": "Pokoje"
+          }
+        }
+      },
+      "facilityEntryControl": {
+        "actionBtn": {
+          "busyLabel": "Zajęty",
+          "freeLabel": "Przyznaj",
+          "occupiedLabel": "Klucz pobrany",
+          "toast": {
+            "addError": "Błąd rejestracji wejścia",
+            "addSuccess": "Zarejestrowano wejście",
+            "releaseError": "Błąd zwalniania obiektu",
+            "releaseSuccess": "Zwolniono obiekt"
+          }
+        }
+      }
+    },
+    "facilities": {
+      "facilitiesTable": {
+        "dialogs": {
+          "edit": {
+            "description": "Dokonaj zmian w obiekcie. Kliknij zapisz aby zastosować zmiany.",
+            "saveBtn": "Zapisz zmiany",
+            "title": "Edytuj obiekt"
+          }
+        },
+        "messages": {
+          "deleteError": "Wystąpił błąd podczas usuwania obiektu",
+          "deleteSuccess": "Obiekt został usunięty",
+          "editError": "Wystąpił błąd podczas edytowania obiektu",
+          "editSuccess": "Obiekt został edytowany"
+        },
+        "occupancy": {
+          "authorizedBy": "Wydał",
+          "confirmHeading": "Czy na pewno chcesz zwolnić obiekt?",
+          "confirmMsg": "Zwolnienie obiektu oznacza, że zajmujący zwrócił wszystkie dostępy do danego zasobu.",
+          "date": "Data",
+          "heading": "Informacje o zajętości",
+          "releaseBtn": "Zwolnij obiekt #{0}",
+          "toast": {
+            "errorHeading": "Wystapił błąd",
+            "errorMsg": "Spróbuj ponownie później.",
+            "okMsg": "Pomyślnie zwolniono obiekt."
+          }
+        },
+        "table": {
+          "columns": {
+            "actions": "Akcje",
+            "createdAt": "Utworzono",
+            "id": "ID",
+            "name": "Nazwa",
+            "status": "Stan",
+            "updatedAt": "Zaktualizowano"
+          },
+          "rows": {
+            "statuses": {
+              "busy": "Zajęty",
+              "free": "Wolny"
+            }
+          },
+          "summary": "Wszystkie obiekty"
+        }
+      },
+      "newFacilityForm": {
+        "description": "Wypełnij poniższy formularz aby dodać nowy obiekt.",
+        "messages": {
+          "createError": "Wystąpił błąd podczas tworzenia obiektu",
+          "createSuccess": "Obiekt został utworzony",
+          "nameTooShort": "Nazwa obiektu jest za krótka"
+        },
+        "nameInput": {
+          "placeholder": "Nazwa obiektu",
+          "title": "Nazwa"
+        },
+        "submitBtn": "Dodaj",
+        "title": "Dodaj nowy obiekt"
+      },
+      "selectFacilities": {
+        "choosePlaceholder": "Wybierz obiekty...",
+        "inputPlaceholder": "Wpisz nazwę obiektu"
+      }
+    },
+    "profile": {
+      "profileSettings": {
+        "cardDesc": "Zarządzaj swoimi ustawieniami profilu.",
+        "cardHeading": "Profil",
+        "createProfileBtn": "Stwórz profil",
+        "inputs": {
+          "bio": {
+            "label": "Bio",
+            "placeholder": "Wpisz kilka słów o sobie."
+          },
+          "firstName": {
+            "label": "Imię",
+            "placeholder": "Wpisz swoje imię"
+          },
+          "surname": {
+            "label": "Nazwisko",
+            "placeholder": "Wpisz swoje nazwisko"
+          }
+        },
+        "saveProfileBtn": "Zapisz profil",
+        "toast": {
+          "create": "Pomyślnie stworzono profil.",
+          "createError": "There is an error while creating profile. Try again later.",
+          "save": "Pomyślnie zapisano profil.",
+          "saveError": "There is an error while updating profile. Try again later."
+        }
+      }
+    },
+    "settings": {
+      "additionalSettings": {
+        "cardHeading": "Dodatkowe ustawienia",
+        "inputs": {
+          "accountEmail": {
+            "label": "E-mail konta"
+          },
+          "password": {
+            "label": "Zmień hasło",
+            "placeholder": "Wprowadź swoje nowe hasło."
+          },
+          "repeatPassword": {
+            "label": "Powtórz hasło",
+            "placeholder": "Powtórz ponownie nowe hasło."
+          },
+          "role": {
+            "label": "Twoja rola"
+          }
+        },
+        "saveBtn": "Zapisz ustawienia",
+        "toasts": {
+          "changePassword": {
+            "error": "Wystąpił błąd podczas zapisywania nowego hasła. Spróbuj ponownie później.",
+            "ok": "Hasło zostało zmienione."
+          }
+        }
+      }
+    },
+    "superId": {
+      "avatarCard": {
+        "heading": "Twój awatar",
+        "subheading": "Zostanie użyty do autoryzacji"
+      },
+      "challengeSolver": {
+        "challenge": {
+          "authorize": "Autoryzuj",
+          "challengeId": "Numer wyzwania",
+          "firstNameAndSurname": "Imię i nazwisko",
+          "idCard": "Nr dokumentu tożsamości",
+          "insertPin": "Wpisz PIN",
+          "studentId": "Nr legitymacji studenckiej",
+          "toast": {
+            "accepted": "Pomyślnie zautoryzowano użytkownika.",
+            "error": "Wprowadzono złe dane. Spróbuj ponownie."
+          }
+        },
+        "finalStage": {
+          "accessTo": "Użytkownik posiada dostęp do {0} obiektów",
+          "email": "E-mail",
+          "successHeading": "Pomyślnie zautoryzowano"
+        },
+        "receiveBtn": "Odbierz",
+        "toast": {
+          "receiveError": "Wystąpił błąd podczas odbierania wyzwania. Spróbuj ponownie."
+        }
+      },
+      "decodeForm": {
+        "camera": {
+          "takePicture": "Zrób zdjęcie"
+        },
+        "chooseFileDesc": "Wybierz plik z urządzenia, który zawiera kod QR z tożsamości superID.",
+        "chooseFileLabel": "Plik źródłowy",
+        "uploadError": "Wystąpił błąd podczas wczytywania obrazka. Spróbuj ponownie z innym plikiem.",
+        "uploadSuccess": "Obrazek przesłany pomyślnie. Znaleziono kod tozsamosci."
+      },
+      "documentMethod": {
+        "name": "Dokument tożsamości",
+        "value": "Legitymacja studencka {0}"
+      },
+      "pinMethod": {
+        "edit": {
+          "failure": "Wystąpił błąd podczas zmiany. Spróbuj ponownie później.",
+          "modalBtn": "Zapisz nowe dane",
+          "modalText": "Zmień PIN do swojego superID.",
+          "modalTitle": "Zmień PIN",
+          "pinInput": {
+            "label": "PIN",
+            "placeholder": "Obecny PIN jest ukryty ze względów bezpieczeństwa"
+          },
+          "successChangedPin": "PIN został zmieniony"
+        },
+        "name": "Dodatkowa metoda uwierzytelnienia",
+        "value": "Kod PIN: {0}"
+      },
+      "qrCard": {
+        "heading": "Twój kod QR",
+        "subheading": "Bez daty ważności"
+      },
+      "revokeButton": {
+        "revokeError": "Wystąpił błąd podczas unieważniania tozśamości. Spróbuj ponownie później.",
+        "revokeSuccess": "Tożsamość została unieważniona.",
+        "revokeText": "Unieważnij tożsamość"
+      }
+    },
+    "user": {
+      "loginButton": {
+        "text": "Zaloguj się",
+        "welcomeMsg": "Witaj, {0}"
+      },
+      "newUserModal": {
+        "btn": "Nowy użytkownik",
+        "cardDesc": "Stworz nowego uzytkownika w systemie SUDO.",
+        "cardHeading": "Dodaj nowego uzytkownika",
+        "createBtn": "Stwórz użytkownika",
+        "inputs": {
+          "email": {
+            "label": "E-mail",
+            "placeholder": "Email nowego użytkownika"
+          },
+          "firstName": {
+            "label": "Imię"
+          },
+          "password": {
+            "label": "Hasło",
+            "placeholder": "Hasło nowego użytkownika"
+          },
+          "role": {
+            "label": "Rola",
+            "placeholder": "Zaznacz rolę użytkownika"
+          },
+          "surname": {
+            "label": "Nazwisko"
+          }
+        },
+        "manualCheck": "Wpisz hasło ręcznie",
+        "manualCheckText": "Obecnie nowe hasło zostanie wysłane na podanego e-maila.",
+        "toast": {
+          "error": "Wystąpił błąd podczas tworzenia nowego użytkownika. Spróbuj ponownie później.",
+          "success": "Pomyślnie stworzono nowego użytkownika."
+        }
+      },
+      "selectUsers": {
+        "chooseUserPlaceholder": "Wybierz użytkowników...",
+        "inputPlaceholder": "Wpisz e-mail"
+      },
+      "usersTable": {
+        "table": {
+          "columns": {
+            "actions": "Akcje",
+            "createdAt": "Utworzono",
+            "email": "E-mail",
+            "id": "ID",
+            "name": "Nazwa",
+            "role": "Rola",
+            "updatedAt": "Zaktualizowano"
+          },
+          "summary": "Wszyscy użytkownicy"
+        }
+      }
+    }
+  },
+  "general": {
+    "changeAction": "Zmień",
+    "editAction": "Edytuj"
+  },
+  "loginPage": {
+    "form": {
+      "emailInput": {
+        "placeholder": "Login / e-mail",
+        "title": "E-mail"
+      },
+      "passwordInput": {
+        "placeholder": "Your's password",
+        "title": "Password"
+      },
+      "submitBtn": "Zaloguj się"
+    },
+    "hero": {
+      "desc": "Dołącz do grona cyfrowych ludzi już",
+      "nowText": "TERAZ",
+      "title": "Witaj w systemie SUDO"
+    },
+    "subtitle": "Zaloguj się do panelu administratora.",
+    "title": "Dostęp do panelu administratora"
+  },
+  "scanSuperIdPage": {
+    "heading": "Odczytaj tożsamość superID"
+  },
+  "superIdPage": {
+    "heading": "Twoje superID",
+    "subheading": "Zarządzaj swoją tozsamoscią w systemie SUDO."
+  },
+  "usersPage": {
+    "subtitle": "Zarządaj użytkownikami w systemie SUDO.",
+    "title": "Użytkownicy"
+  }
+}

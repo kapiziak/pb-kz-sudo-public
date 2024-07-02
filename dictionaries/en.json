@@ -1,0 +1,449 @@
+{
+  "appDialogs": {
+    "generalDelete": {
+      "confirmBtn": "Confirm",
+      "description": "This action cannot be undone. This will permanently delete your account and remove your data from our servers.",
+      "title": "Are you sure absolutely sure?"
+    }
+  },
+  "appSidebar": {
+    "menu": {
+      "authorizations": "Authorizations",
+      "entries": "Guest book",
+      "facilities": "Facilities",
+      "homepage": "Home",
+      "users": "User"
+    },
+    "submenus": {
+      "authorizations": {
+        "create": "Create",
+        "list": "List",
+        "my": "My authorizations"
+      },
+      "facilities": {
+        "create": "Create",
+        "list": "List"
+      },
+      "superId": {
+        "manage": "Manage identity",
+        "scan": "Scan identity"
+      },
+      "users": {
+        "create": "Create",
+        "list": "List"
+      }
+    }
+  },
+  "appTopbar": {
+    "quickMenu": {
+      "heading": "Settings",
+      "language": "Language",
+      "logout": "Log out",
+      "profile": "Profile"
+    }
+  },
+  "authorizationsPage": {
+    "myAuthorizations": {
+      "subtitle": "Preview of yours all authorizations.",
+      "title": "My authorizations"
+    },
+    "subtitle": "Manage authorizations in yours SUDO system.",
+    "title": "Authorizations"
+  },
+  "common": {
+    "alertapierror": {
+      "text": "There is an server error. Try again later. {0}"
+    },
+    "combobox": {
+      "entitiesNotFound": "No results found.",
+      "serverError": "Server error. Try again later..."
+    },
+    "dataTable": {
+      "pageOf": "Page #{0} of #{1}",
+      "rowsPerPage": "Rows per page"
+    },
+    "inputsOptional": "optional",
+    "shortcuts": {
+      "authorizations": {
+        "caption": "Create a new authorization",
+        "title": "New Authorization"
+      },
+      "entries": {
+        "caption": "View all entries",
+        "title": "Guestbook"
+      },
+      "facilities": {
+        "caption": "View all facilities",
+        "title": "Facilities"
+      }
+    },
+    "summaries": {
+      "authorizations": {
+        "caption": "of all existing authorizations",
+        "title": "Active authorizations"
+      },
+      "entries": {
+        "caption": "+0% from last workday",
+        "title": "Today entries"
+      },
+      "facilities": {
+        "caption": "of currently occupied facilities",
+        "title": "Occupied facilities"
+      }
+    }
+  },
+  "entriesPage": {
+    "heading": "Book of entries",
+    "subheading": "Here you can see all access realizations regarding the facilities."
+  },
+  "facilitiesPage": {
+    "subtitle": "Manage facilities in yours SUDO system.",
+    "title": "Facilities"
+  },
+  "features": {
+    "authorizations": {
+      "newAuthorizationForm": {
+        "inputs": {
+          "selectDates": "Select date range",
+          "selectFacilities": "Select objects",
+          "selectUsers": "Select users to authorize"
+        },
+        "nextButton": {
+          "step1": "Go further",
+          "step2": "Add authorization",
+          "step3": "Finish"
+        },
+        "step2Labels": {
+          "dates": "Validity period",
+          "deselectFacilityCaption": "Remove this facility from authorization.",
+          "deselectUserCaption": "Remove this user from authorization.",
+          "selectedFacilities": "Selected objects",
+          "users": "Authorized"
+        },
+        "steps": {
+          "step1": "Step 1. Fill in the data",
+          "step2": "Step 2. Verification",
+          "step3": "Step 3. Confirmation"
+        },
+        "stepsCards": {
+          "step1": "1. Fill in the data",
+          "step2": "2. Verification",
+          "step3": "3. Confirmation"
+        },
+        "summary": {
+          "errorMsg": "An unexpected error occurred while adding authorization: {0}",
+          "success": "Successfully added new authorization #{0}"
+        },
+        "toast": {
+          "error": "An error occurred while adding authorization: {0}",
+          "success": "Successfully added new authorization #{0}"
+        }
+      }
+    },
+    "entry": {
+      "entriesTable": {
+        "table": {
+          "columns": {
+            "authorizedBy": "Authorized by",
+            "entry": "Entry at",
+            "exit": "Exit at",
+            "occupier": "Occupier",
+            "rooms": "Rooms"
+          }
+        }
+      },
+      "facilityEntryControl": {
+        "actionBtn": {
+          "busyLabel": "Busy",
+          "freeLabel": "Admit",
+          "occupiedLabel": "Key occupied",
+          "toast": {
+            "addError": "Entry registration error",
+            "addSuccess": "Registered entry",
+            "releaseError": "Facility release error.",
+            "releaseSuccess": "Released the facility."
+          }
+        }
+      }
+    },
+    "facilities": {
+      "facilitiesTable": {
+        "dialogs": {
+          "edit": {
+            "description": "Make changes in facility. Click save to apply changes.",
+            "saveBtn": "Save changes",
+            "title": "Edit facility"
+          }
+        },
+        "messages": {
+          "deleteError": "An error occurred while deleting the object",
+          "deleteSuccess": "The object has been deleted",
+          "editError": "An error occurred while editing the object",
+          "editSuccess": "The object has been edited"
+        },
+        "occupancy": {
+          "authorizedBy": "Authorized by",
+          "confirmHeading": "Are you sure you want to release the object?",
+          "confirmMsg": "Releasing an object means that the occupier has returned all accesses to the resource.",
+          "date": "Date",
+          "heading": "Occupancy status",
+          "releaseBtn": "Release facility #{0}",
+          "toast": {
+            "errorHeading": "An error has occured",
+            "errorMsg": "Try again later.",
+            "okMsg": "Successfully released facility."
+          }
+        },
+        "table": {
+          "columns": {
+            "actions": "Actions",
+            "createdAt": "Created at",
+            "id": "ID",
+            "name": "Name",
+            "status": "Status",
+            "updatedAt": "Updated at"
+          },
+          "rows": {
+            "statuses": {
+              "busy": "Busy",
+              "free": "Free"
+            }
+          },
+          "summary": "All objects"
+        }
+      },
+      "newFacilityForm": {
+        "description": "Fill in the form below to create a new facility.",
+        "messages": {
+          "createError": "An error occurred while creating the facility",
+          "createSuccess": "The facility has been created",
+          "nameTooShort": "The facility name is too short"
+        },
+        "nameInput": {
+          "placeholder": "Facility name",
+          "title": "Name"
+        },
+        "submitBtn": "Create",
+        "title": "Create new facility"
+      },
+      "selectFacilities": {
+        "choosePlaceholder": "Choose facilities...",
+        "inputPlaceholder": "Insert name of the facility"
+      }
+    },
+    "profile": {
+      "profileSettings": {
+        "cardDesc": "Manage your profile settings",
+        "cardHeading": "User Profile",
+        "createProfileBtn": "Create profile",
+        "inputs": {
+          "bio": {
+            "label": "Bio",
+            "placeholder": "Enter a few words about you."
+          },
+          "firstName": {
+            "label": "First Name",
+            "placeholder": "Enter your first name"
+          },
+          "surname": {
+            "label": "Surname",
+            "placeholder": "Enter your surname"
+          }
+        },
+        "saveProfileBtn": "Save profile",
+        "toast": {
+          "create": "Profile has been created.",
+          "createError": "Wystąpił błąd podczas tworzenia profilu. Spróbuj ponownie później.",
+          "save": "Profile has been updated.",
+          "saveError": "Wystąpił błąd podczas aktualizowania profilu. Spróbuj ponownie później."
+        }
+      }
+    },
+    "settings": {
+      "additionalSettings": {
+        "cardDesc": "Manage your account settings",
+        "cardHeading": "Additional Settings",
+        "inputs": {
+          "accountEmail": {
+            "label": "Account Email"
+          },
+          "password": {
+            "label": "Change Password",
+            "placeholder": "Enter your new password"
+          },
+          "repeatPassword": {
+            "label": "Repeat password",
+            "placeholder": "Enter again your new password"
+          },
+          "role": {
+            "label": "Manage role"
+          }
+        },
+        "saveBtn": "Save settings",
+        "toasts": {
+          "changePassword": {
+            "error": "There is an error while saving yours new password. Try again later.",
+            "ok": "Password has been changed."
+          }
+        }
+      }
+    },
+    "superId": {
+      "avatarCard": {
+        "heading": "Yours avatar",
+        "subheading": "Used for authorization process"
+      },
+      "challengeSolver": {
+        "challenge": {
+          "authorize": "Authorize",
+          "challengeId": "Challenge ID",
+          "firstNameAndSurname": "Name",
+          "idCard": "ID card",
+          "insertPin": "Insert user's PIN",
+          "studentId": "Student ID",
+          "toast": {
+            "accepted": "Successfully authorized the user.",
+            "error": "The wrong data has been entered. Try again."
+          }
+        },
+        "finalStage": {
+          "accessTo": "User has access to {0} objects",
+          "email": "E-mail",
+          "successHeading": "Successfully authorized"
+        },
+        "receiveBtn": "Receive challenge",
+        "toast": {
+          "receiveError": "An error occurred while receiving the challenge. Please try again."
+        }
+      },
+      "decodeForm": {
+        "camera": {
+          "takePicture": "Take a picture"
+        },
+        "chooseFileDesc": "Select a file from your device that contains a QR code with superID identity.",
+        "chooseFileLabel": "Source file",
+        "uploadError": "There was an error while loading the image. Try again with a different file.",
+        "uploadSuccess": "Image uploaded successfully. Identity code found."
+      },
+      "documentMethod": {
+        "name": "ID Card",
+        "value": "Student Card no. {0}"
+      },
+      "pinMethod": {
+        "edit": {
+          "failure": "Server error. Try again later.",
+          "modalBtn": "Save",
+          "modalText": "Change PIN to yours superID.",
+          "modalTitle": "Change PIN",
+          "pinInput": {
+            "label": "PIN",
+            "placeholder": "The current PIN is hidden for security reasons"
+          },
+          "successChangedPin": "PIN has been changed."
+        },
+        "name": "Additional auth method",
+        "value": "PIN: {0}"
+      },
+      "qrCard": {
+        "heading": "Yours QR",
+        "subheading": "Without expiry date"
+      },
+      "revokeButton": {
+        "revokeError": "There was an error while invalidating the topos. Please try again later.",
+        "revokeSuccess": "Revoked successfully yours identity.",
+        "revokeText": "Revoke identity"
+      }
+    },
+    "user": {
+      "loginButton": {
+        "text": "Log in",
+        "welcomeMsg": "Hi, {0}"
+      },
+      "newUserModal": {
+        "btn": "New user",
+        "cardDesc": "Create a new user in SUDO app.",
+        "cardHeading": "Add new user",
+        "createBtn": "Create new user",
+        "inputs": {
+          "email": {
+            "label": "E-mail",
+            "placeholder": "New user email"
+          },
+          "firstName": {
+            "label": "First name"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "New user password"
+          },
+          "role": {
+            "label": "Role",
+            "placeholder": "Choose new user role"
+          },
+          "surname": {
+            "label": "Last name"
+          }
+        },
+        "manualCheck": "Manual password creation",
+        "manualCheckText": "At present, a new password will be sent to the email provided.",
+        "toast": {
+          "error": "There is an error while creating a new user. Try again later.",
+          "success": "Successfully created new user."
+        }
+      },
+      "selectUsers": {
+        "chooseUserPlaceholder": "Choose users...",
+        "inputPlaceholder": "Insert e-mail"
+      },
+      "usersTable": {
+        "table": {
+          "columns": {
+            "actions": "Actions",
+            "createdAt": "Created at",
+            "email": "E-mail",
+            "id": "ID",
+            "name": "Name",
+            "role": "Role",
+            "updatedAt": "Updated at"
+          },
+          "summary": "All users"
+        }
+      }
+    }
+  },
+  "general": {
+    "changeAction": "Change",
+    "editAction": "Edit"
+  },
+  "loginPage": {
+    "form": {
+      "emailInput": {
+        "placeholder": "Login / e-mail",
+        "title": "E-mail"
+      },
+      "passwordInput": {
+        "placeholder": "Your's password",
+        "title": "Password"
+      },
+      "submitBtn": "Log in"
+    },
+    "hero": {
+      "desc": "Join to the thousands of happy people",
+      "nowText": "NOW",
+      "title": "Welcome to the SUDO"
+    },
+    "subtitle": "TODO",
+    "title": "Access to admin panel"
+  },
+  "scanSuperIdPage": {
+    "heading": "Read the superID identity"
+  },
+  "superIdPage": {
+    "heading": "Yours superID",
+    "subheading": "Manage your identity in the SUDO system."
+  },
+  "usersPage": {
+    "subtitle": "Manage users in yours SUDO system.",
+    "title": "Users"
+  }
+}
