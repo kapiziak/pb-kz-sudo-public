@@ -8,10 +8,10 @@
         "start": "next start",
         "lint": "next lint --max-warnings=0",
         "update:api": "openapi-typescript http://localhost:2222/api-docs/swagger.json -o ./src/api/v1.d.ts",
-        "update:lang": "rm -rf ./dictionaries/dist && mkdir ./dictionaries/dist && ts-node utils/generate-lang-dict-schema.ts",
-        "dev:electron": "yarn run build:electron && cap open @capacitor-community/electron",
-        "build:ios": "NEXT_PUBLIC_PLATFORM=ios yarn run build && cap sync ios",
-        "build:electron": "NEXT_PUBLIC_PLATFORM=electron yarn run build && cap sync @capacitor-community/electron",
+        "update:lang": "rimraf ./dictionaries/dist && mkdirp ./dictionaries/dist && ts-node ./utils/generate-lang-dict-schema.ts",
+        "dev:electron": "npm run build:electron && cap open @capacitor-community/electron",
+        "build:ios": "cross-env NEXT_PUBLIC_PLATFORM=ios npm run build && cap sync ios",
+        "build:electron": "cross-env NEXT_PUBLIC_PLATFORM=electron npm run build && cap sync @capacitor-community/electron",
         "prepare": "husky install"
     },
     "dependencies": {
@@ -81,8 +81,11 @@
     "devDependencies": {
         "@tanstack/eslint-plugin-query": "^4.32.5",
         "autoprefixer": "^10.4.14",
+        "cross-env": "^7.0.3",
+        "mkdirp": "^3.0.1",
         "openapi-typescript": "^6.5.3",
         "postcss": "^8.4.24",
+        "rimraf": "^6.0.1",
         "tailwindcss": "^3.3.2"
     },
     "repository": {

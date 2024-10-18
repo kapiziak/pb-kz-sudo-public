@@ -2,6 +2,8 @@
 
 Front-end aplikacji SUDO stworzonej w ramach pracy inżynierskiej.
 
+UWAGA: Komendy mogą działać nieprawidłowo w Powershellu. Zaleca się używanie CMD na Windowsie.
+
 ## Uruchomienie projektu
 
 0. Skopiuj .env.example do .env.development i dopasuj wartości pod swoje środowisko.
@@ -13,12 +15,17 @@ Front-end aplikacji SUDO stworzonej w ramach pracy inżynierskiej.
 1. Wpisz `yarn run build`.
 2. Wpisz `yarn run start`.
 
-## Buildowanie projektu np. Electron
+## Tworzenie pierwszego użytkownika.
 
-1. Wpisz `yarn run build:electron`
-2. Wpisz `npx cap open @capacitor-community/electron`
+Ta sekcja została opisana w README backendowym.
 
-## Buildowanie projektu pod platformy mobilne np. ios (wymagane xcode command line tools)
+## Uruchomienie projektu na platformie Electron
+
+1. Wejdź do katalogu electron i wpisz `npm install`.
+2. Wróć do głównego katalogu i wpisz `npm run dev:electron`.
+   2a. Jeżeli powyższa opcja za pierwszym razem nie zadziała spróbuj uruchomić przed `npx cap update @capacitor-community/electron`
+
+## Uruchomienie projektu na platformach mobilnych np. ios (wymagane xcode command line tools)
 
 1. Wpisz `yarn run build:ios`
 2. Wpisz `npx cap open ios`.
