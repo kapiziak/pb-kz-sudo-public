@@ -17,44 +17,6 @@ class BaseService {
         };
     }
 
-    // async get(endpoint: PathsWithMethod<paths, "get">) {
-    //     return GET(endpoint, {});
-    //     // return fetch(this.buildUrl(), {
-    //     //     headers: this.buildHeaders(),
-    //     // });
-    // }
-    // async post(endpoint: PathsWithMethod<paths, "post">, body: string) {
-    //     return POST();
-    //     // return fetch(this.buildUrl(), {
-    //     //     method: "POST",
-    //     //     body,
-    //     //     headers: this.buildHeaders(),
-    //     // });
-    // }
-    // async put() {
-    //     return fetch(this.buildUrl(), {
-    //         method: "PUT",
-    //         headers: this.buildHeaders(),
-    //     });
-    // }
-    // async delete() {
-    //     return fetch(this.buildUrl(), {
-    //         method: "DELETE",
-    //         headers: this.buildHeaders(),
-    //     });
-    // }
-    // protected setEntry(entry: string) {
-    //     this.entry = entry;
-    //     return this;
-    // }
-    // private buildUrl() {
-    //     return `${this.BASE_URL}${this.endpoint}${this.entry ?? ""}`;
-    // }
-    // private buildHeaders() {
-    //     return {
-    //         ...this.headers,
-    //     };
-
     public jsonBody(data: any) {
         return JSON.stringify(data);
     }
