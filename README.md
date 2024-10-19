@@ -25,7 +25,8 @@ Ta sekcja została opisana w README backendowym.
 2. Uruchom front-end `npm run dev`.
 3. Według instrukcji tworzenia pierwszego użytkownika stwórz konto, z danych, z pliku `tests/fixtures/common-data.json`.
    Użytkownik jest potrzebny, ponieważ większość funkcjonalności wymaga zalogowania, a logika aplikacji zakłada tworzenie kont tylko przez administratorów.
-4. Uruchom `npm run test`.
+4. Uruchom `npx playwright install`.
+5. Uruchom `npm run test`.
 
 ## Uruchomienie projektu na platformie Electron
 
