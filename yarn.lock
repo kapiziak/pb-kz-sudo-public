@@ -1461,6 +1461,13 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@playwright/test@^1.48.1":
+  version "1.48.1"
+  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.48.1.tgz"
+  integrity sha512-s9RtWoxkOLmRJdw3oFvhFbs9OJS0BzrLUc8Hf6l2UdCNd1rqeEyD4BhCJkvzeEoD1FsK4mirsWwGerhVmYKtZg==
+  dependencies:
+    playwright "1.48.1"
+
 "@radix-ui/number@1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@radix-ui/number/-/number-1.0.1.tgz"
@@ -5023,6 +5030,20 @@ pirates@^4.0.1:
   version "4.0.5"
   resolved "https://registry.npmjs.org/pirates/-/pirates-4.0.5.tgz"
   integrity sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==
+
+playwright-core@1.48.1:
+  version "1.48.1"
+  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.48.1.tgz"
+  integrity sha512-Yw/t4VAFX/bBr1OzwCuOMZkY1Cnb4z/doAFSwf4huqAGWmf9eMNjmK7NiOljCdLmxeRYcGPPmcDgU0zOlzP0YA==
+
+playwright@1.48.1:
+  version "1.48.1"
+  resolved "https://registry.npmjs.org/playwright/-/playwright-1.48.1.tgz"
+  integrity sha512-j8CiHW/V6HxmbntOfyB4+T/uk08tBy6ph0MpBXwuoofkSnLmlfdYNNkFTYD6ofzzlSqLA1fwH4vwvVFvJgLN0w==
+  dependencies:
+    playwright-core "1.48.1"
+  optionalDependencies:
+    fsevents "2.3.2"
 
 plist@^3.0.2, plist@^3.0.5, plist@^3.0.6:
   version "3.1.0"

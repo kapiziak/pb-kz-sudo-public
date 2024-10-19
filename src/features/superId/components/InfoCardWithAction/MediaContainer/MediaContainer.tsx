@@ -9,7 +9,15 @@ export default function MediaContainer(props: ImageProps) {
             {/* Note: props.alt is required, so we silent this warning */}
             {/* */}
             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-            <Image className={`${className} rounded-md`} {...anotherProps} />
+            <Image
+                className={`${className} rounded-md`}
+                data-testid={
+                    anotherProps.alt
+                        ? anotherProps.alt.replaceAll(" ", "-")
+                        : undefined
+                }
+                {...anotherProps}
+            />
         </div>
     );
 }

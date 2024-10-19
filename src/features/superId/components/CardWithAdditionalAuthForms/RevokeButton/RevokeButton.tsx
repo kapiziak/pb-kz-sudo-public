@@ -4,7 +4,6 @@ import useTranslation from "@/src/application/lang/client/useTranslation";
 import { appSelectLanguage } from "@/src/application/store/reducers/appSlice";
 import { Button } from "@/src/components/ui/button";
 import { useToast } from "@/src/components/ui/use-toast";
-import { useTransition } from "react";
 import { useSelector } from "react-redux";
 
 export default function RevokeButton() {
@@ -56,6 +55,7 @@ export default function RevokeButton() {
                 className="w-full"
                 variant={"destructive"}
                 onClick={handleRevokeSuperId}
+                data-testid="revoke-superid"
             >
                 <Translation name="features.superId.revokeButton.revokeText" />
             </Button>
