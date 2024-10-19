@@ -48,7 +48,7 @@ export default function SettingsDropdown() {
     }
 
     return (
-        <div>
+        <div data-testid="settings-dropdown">
             <DropdownMenu>
                 <DropdownMenuTrigger>
                     <IconButton icon={<Cog />}></IconButton>

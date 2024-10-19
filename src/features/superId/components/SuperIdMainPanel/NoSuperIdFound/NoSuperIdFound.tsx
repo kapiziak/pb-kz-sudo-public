@@ -20,7 +20,10 @@ export default function NoSuperIdFound() {
             }}
         >
             <Button asChild>
-                <Link href={router.superId("create")}>
+                <Link
+                    href={router.superId("create")}
+                    data-testid="create-superid"
+                >
                     Stwórz swoje superID{" "}
                 </Link>
             </Button>

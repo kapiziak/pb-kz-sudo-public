@@ -71,8 +71,6 @@ export function LoginForm({ translations }: LoginFormProps) {
                 return;
             }
 
-            console.log("USER DATA: ", data.data.data);
-
             toast({
                 variant: "default",
                 title: "Success!",
@@ -120,6 +118,7 @@ export function LoginForm({ translations }: LoginFormProps) {
                                     </FormLabel>
                                     <FormControl>
                                         <Input
+                                            data-testid="username"
                                             placeholder={
                                                 translations.emailInput
                                                     .placeholder
@@ -142,6 +141,7 @@ export function LoginForm({ translations }: LoginFormProps) {
                                     </FormLabel>
                                     <FormControl>
                                         <Input
+                                            data-testid="password"
                                             placeholder={
                                                 translations.passwordInput
                                                     .placeholder
@@ -155,7 +155,11 @@ export function LoginForm({ translations }: LoginFormProps) {
                             )}
                         />
 
-                        <Button type="submit" disabled={isLoading}>
+                        <Button
+                            type="submit"
+                            disabled={isLoading}
+                            data-testid="login-submit"
+                        >
                             {isLoading ? (
                                 <RefreshCw className="animate-spin w-4 me-2" />
                             ) : null}
